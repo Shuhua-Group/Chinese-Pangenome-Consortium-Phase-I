@@ -1,8 +1,12 @@
+[![CPC](website/img/cpcHome.png)](#)
+
 # Chinese Pangenome Consortium (Phase I)
 
-[![CPC](website/img/cpcHome.png)](##)
+Despite over the last two decades the reference human genome sequence has served as the foundation for genetic and biomedical research and applications, there is a broad consensus that no single reference sequence can represent the genomic diversity of global populations. 
 
-Despite over the last two decades the reference human genome sequence has served as the foundation for genetic and biomedical research and applications, there is a broad consensus that no single reference sequence can represent the genomic diversity of global populations. On one hand, high-quality **population-specific** and **haplotype-resolved** genome references are necessary for genetic and medical analysis. On the other hand, there is a clear need to shift **from a single reference to a pangenome** form that better represents genomic diversity, or allelic variation within and across human populations. Therefore, we present the first effort (Phase I) of the Chinese Pangenome Consortium (CPC) with **the draft CPC pangenome reference** based on **116** high-quality haplotype-resolved assemblies from **58** core samples representing **36** minority Chinese ethnic groups and **6** assemblies of the Han Chinese.
+On one hand, high-quality **population-specific** and **haplotype-resolved** genome references are necessary for genetic and medical analysis. On the other hand, there is a clear need to shift **from a single reference to a pangenome** form that better represents genomic diversity, or allelic variation within and across human populations. 
+
+Here, we present the first effort (Phase I) of the Chinese Pangenome Consortium (CPC) with **the draft CPC pangenome reference** based on **116** high-quality haplotype-resolved assemblies from **58** core samples representing **36** minority Chinese ethnic groups and **6** assemblies of the Han Chinese.
 
 
 ## Files
