@@ -2,34 +2,31 @@
 
 ## Table of Contents
 
-- [**Key resources table**](#Key-resources-table)
-
+- **Key resources table**
   - [Data](#data)
-
   - [Softwares](#softwares)
 
-- [**Step-by-step method details**](#Step-by-step-method-details)
-
+- **Step-by-step method details**
   - [HiFi reads generation](#hifi-reads-generation)
-
   - [Genome assembly](#genome-assembly)
-
   - [Pangenome graph construction](#pangenome-graph-construction)
 
 ## Key resources table
 
 ### Data
 
- - subreads.bam
+ - Subreads reads (`.subreads.bam`) or HiFi reads (`.ccs.bam`)
+   > If the input is HIFI reads, the *HiFi reads generation* step can be skipped.
 
-
+ - Hi-C reads ( optional )
+   > Hi-C data is recommended for obtaining higher haplotype-resolved assemblies.
 
 ### Softwares
 
- - [ccs]()
- - [samtools]()
- - [hifiasm]()
- - [inspector]()
+ - [ccs](https://github.com/PacificBiosciences/ccs)
+ - [samtools](https://github.com/samtools/samtools)
+ - [hifiasm](https://github.com/chhylp123/hifiasm)
+ - [inspector](https://github.com/ChongLab/Inspector)
 
 
 ## Step-by-step method details
