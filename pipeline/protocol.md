@@ -131,5 +131,5 @@ cactus-preprocess ${MYJOBSTORE} ${MYBUCKET}/${PREFIX}.seqfile ${MYBUCKET}/${PREF
 #### 3. Run the Minigraph-Cactus pipeline
 We run the Minigraph-Cactus pipeline with the [cactus-pangenome.sh script](https://github.com/glennhickey/pg-stuff/blob/c87b9236a20272b127ea2fadffc5428c5bf15c0e/cactus-pangenome.sh)
 ```
- ./cactus-pangenome.sh -j ${MYJOBSTORE} -s ${MYBUCKET}/${PREFIX}.pp.seqfile -m ${MYBUCKET}/${PREFIX}.minigraph.gfa  -o ${MYBUCKET}  -n ${PREFIX}  -r CHM13v2  -g  -F -C -M 100000 -K 10000 -y  2>> ${MYBUCKET}/log/${PREFIX}.MC_run.log > /dev/null
+ ./cactus-pangenome.sh -j ${MYJOBSTORE} -s ${MYBUCKET}/${PREFIX}.pp.seqfile -m ${MYBUCKET}/${PREFIX}.minigraph.gfa  -o ${MYBUCKET}  -n ${PREFIX}  -r CHM13v2  -g  -F -C -M 100000 -K 10000 -y 2 >> ${MYBUCKET}/log/${PREFIX}.MC_run.log > /dev/null
 ```	
