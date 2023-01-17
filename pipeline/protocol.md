@@ -85,7 +85,17 @@ inspector-correct.py -i ${sample_id}.asm/ --datatype pacbio-hifi -o ${sample_id}
 
 We used the [Minigraph-Cactus Pangenome Pipeline](https://github.com/ComparativeGenomicsToolkit/cactus/blob/master/doc/pangenome.md) with Cactus v2.1.1 to construct the CPC phase 1 pangenome graph. 
 
-First, we need to create an input seqfile `${PREFIX}.seqfile` for Cactus:
+First, we defined the following environment variables:
+
+```
+export MYBUCKET=/data/MC_graph/CHM13v2
+export MYJOBSTORE=/data/tmp
+export PREFIX=/data/MC_graph/CHM13v2/CPC.Phase1.CHM13v2
+
+mkdir -p ${MYBUCKET}
+```
+
+Then we need to create an input seqfile `${PREFIX}.seqfile` for Cactus:
 ```
 $ head -n4 ${PREFIX}.seqfile
 
@@ -95,14 +105,6 @@ HG00438.1 /data/assembly/HG00438.1.fa
 HG00438.2 /data/assembly/HG00438.2.fa
 ```  
 The first columns are the id of reference genomes of assemblies, and the second columns are their absolute directories. The first genome in the seqfile will be the reference genome of the pangenome graph. 
-
-Then we defined the following environment variables:
-
-```
-export MYBUCKET=/data/MC_graph/CHM13v2
-export MYJOBSTORE=/data/tmp
-export PREFIX=${PREFIX}
-```
 
 
 #### 1. Construct the minigraph
