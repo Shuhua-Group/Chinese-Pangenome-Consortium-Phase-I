@@ -1,4 +1,2 @@
-## Introduction
-
-The haplotype-resolved de novo assemblies of CPC phase I (remove contigs that contain Epstein-Barr virus (EBV)
-sequences)
+## CPC phase I (updated on Sep 24)
+The haplotype-resolved de novo assemblies  (EBV-derived sequences removed)
